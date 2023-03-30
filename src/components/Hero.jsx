@@ -12,7 +12,13 @@ const Hero = () => {
   return (
     <div>
       <div className="text-center p-10">
-        <h2 className="text-4xl py-2 text-teal-600 font-medium md:text-5xl"></h2>
+        <h2 className="text-4xl py-2 text-teal-600 font-medium md:text-5xl">
+          <TypeAnimation
+            sequence={["Ameh Solomon Onyeke", 1000, "", 1000]}
+            cursor={true}
+            repeat={10}
+          />
+        </h2>
         <h3 className="text-2xl py-2 md:text-3xl">
           Fullstack Web Developer and AI Enthusiast
         </h3>
@@ -27,28 +33,28 @@ const Hero = () => {
           rel="noreferrer"
           href="https://twitter.com/uncle_solomon"
         >
-          <AiFillTwitterCircle />
+          <AiFillTwitterCircle className="animate-bounce" />
         </a>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://github.com/Uncle-Solomon"
         >
-          <AiFillGithub />
+          <AiFillGithub className="animate-bounce" />
         </a>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://www.linkedin.com/in/ameh-solomon-onyeke-a69874162/"
         >
-          <AiFillLinkedin />
+          <AiFillLinkedin className="animate-bounce" />
         </a>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://www.instagram.com/uncle_soyo/"
         >
-          <AiFillInstagram />
+          <AiFillInstagram className="animate-bounce" />
         </a>
       </div>
       <div className="mx-auto mt-10 w-60 h-60 md:w-96 md:h-96 mb-10">
