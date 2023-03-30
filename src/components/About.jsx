@@ -13,6 +13,7 @@ import {
   SiPython,
   SiScikitlearn,
   SiTailwindcss,
+  SiTensorflow,
 } from "react-icons/si";
 
 const About = () => {
@@ -33,7 +34,12 @@ const About = () => {
       </div>
       <div className="lg:flex gap-10">
         <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 ">
-          <img src={frontend} className="mx-auto" width={150} height={150} />
+          <img
+            src={frontend}
+            className="mx-auto hover:scale-110 ease-in-out duration-300"
+            width={150}
+            height={150}
+          />
           <h3 className="text-lg font-medium pt-8 pb-2  text-teal-600">
             FrontEnd
           </h3>
@@ -60,7 +66,12 @@ const About = () => {
           </p>
         </div>
         <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 ">
-          <img src={backend} className="mx-auto" width={100} height={100} />
+          <img
+            src={backend}
+            className="mx-auto hover:scale-110 ease-in-out duration-300 "
+            width={100}
+            height={100}
+          />
           <h3 className="text-lg font-medium pt-8 pb-2  text-teal-600">
             Backend
           </h3>
@@ -89,7 +100,12 @@ const About = () => {
           </p>
         </div>
         <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 ">
-          <img src={AI} className="mx-auto" width={100} height={100} />
+          <img
+            src={AI}
+            className="mx-auto hover:scale-110 ease-in-out duration-300"
+            width={100}
+            height={100}
+          />
           <h3 className="text-lg font-medium pt-8 pb-2  text-teal-600">
             AI / Machine Learning
           </h3>
@@ -109,6 +125,10 @@ const About = () => {
           <p className="text-gray-700 py-1">
             Scikit Learn{" "}
             <SiScikitlearn className="inline-block text-teal-600 items-center ml-1 animate-bounce" />
+          </p>
+          <p className="text-gray-700 py-1">
+            TensorFLow{" "}
+            <SiTensorflow className="inline-block text-teal-600 items-center ml-1 animate-bounce" />
           </p>
         </div>
       </div>
