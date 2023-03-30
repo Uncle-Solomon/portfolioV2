@@ -20,8 +20,8 @@ const About = () => {
   return (
     <div>
       <div>
-        <h3 className="text-3xl py-1 ">About Me</h3>
-        <p className="text-md py-2 leading-8 text-gray-700 ">
+        <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
+        <p className="text-md py-2 leading-8 text-gray-700 dark:text-gray-200">
           I focus majorly on{" "}
           <span className="text-teal-500"> backend technology </span> but I
           still know a little about{" "}
@@ -33,7 +33,7 @@ const About = () => {
         </p>
       </div>
       <div className="lg:flex gap-10 group">
-        <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 group-hover:blur-sm hover:!blur-none ">
+        <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 lg:group-hover:blur-sm lg:hover:!blur-none dark:bg-white">
           <img
             src={frontend}
             className="mx-auto hover:scale-110 ease-in-out duration-300"
@@ -65,7 +65,7 @@ const About = () => {
             <SiTailwindcss className="inline-block text-teal-600 items-center ml-1 animate-bounce" />
           </p>
         </div>
-        <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 group-hover:blur-sm hover:!blur-none ">
+        <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 lg:group-hover:blur-sm lg:hover:!blur-none dark:bg-white">
           <img
             src={backend}
             className="mx-auto hover:scale-110 ease-in-out duration-300 "
@@ -99,7 +99,7 @@ const About = () => {
             <SiPostman className="inline-block text-teal-600 items-center ml-1 animate-bounce" />
           </p>
         </div>
-        <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 group-hover:blur-sm hover:!blur-none ">
+        <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 lg:group-hover:blur-sm lg:hover:!blur-none dark:bg-white">
           <img
             src={AI}
             className="mx-auto hover:scale-110 ease-in-out duration-300"

@@ -11,7 +11,7 @@ const Portfolio = () => {
     <div>
       <div>
         <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
-        <p className="text-md py-2 leading-8 text-gray-700">
+        <p className="text-md py-2 leading-8 text-gray-700 dark:text-white">
           The section that follows highlights a few of my recently completed
           projects.
         </p>

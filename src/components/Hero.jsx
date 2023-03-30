@@ -19,15 +19,15 @@ const Hero = () => {
             repeat={Infinity}
           />
         </h2>
-        <h3 className="text-2xl py-2 md:text-3xl">
+        <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
           Fullstack Web Developer and AI Enthusiast
         </h3>
-        <p className="text-md py-5 leading-8 text-gray-70 md:text-lg max-w-lg mx-auto ">
+        <p className="text-md py-5 leading-8 text-gray-70 md:text-lg max-w-lg mx-auto dark:text-gray-200">
           A tech bro with a wide range of skills and services to offer. You can
           reach me through any of the provided platforms.
         </p>
       </div>
-      <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+      <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
         <a
           target="_blank"
           rel="noreferrer"

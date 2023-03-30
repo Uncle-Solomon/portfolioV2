@@ -3,7 +3,7 @@ import { FaHeartbeat } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="text-center p-10">
+    <div className="text-center p-10 dark:text-white">
       <p>
         Designed with <FaHeartbeat className="inline-block" /> by Ameh Solomon
         Onyeke A.S.O

@@ -5,16 +5,19 @@ import FileSaver from "file-saver";
 const fileUrl = "/AmehSolomonOnyekeResume.pdf";
 const fileName = "Ameh Solomon Onyeke";
 
-const Navbar = () => {
+const Navbar = ({ toggleDarkMode }) => {
   const handleClick = () => {
     FileSaver.saveAs(fileUrl, fileName);
   };
   return (
-    <nav className="py-10 mb-12 flex justify-between sticky">
+    <nav className="py-10 mb-12 flex justify-between dark:text-white">
       <h1 className="text-2xl">A.S.O</h1>
       <ul className="flex items-center ">
         <li>
-          <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
+          <BsFillMoonStarsFill
+            className="cursor-pointer text-2xl"
+            onClick={toggleDarkMode}
+          />
         </li>
         <li>
           <button
