@@ -18,7 +18,11 @@ const Portfolio = () => {
       </div>
       <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
         <div className="basis-1/3 flex-1 hover:scale-105 shadow-2xl hover-shadow-3xl ease-in-out transition-all duration-300">
-          <a href="" target="_blank" rel="noreferrer">
+          <a
+            href="https://project-wireframe.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={web1}
               className="rounded-lg object-cover "
@@ -29,7 +33,11 @@ const Portfolio = () => {
           </a>
         </div>
         <div className="basis-1/3 flex-1 hover:scale-105 shadow-2xl hover-shadow-3xl ease-in-out transition-all duration-300">
-          <a href="" target="_blank" rel="noreferrer">
+          <a
+            href="https://mern-ehya-blog-app.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={web2}
               className="rounded-lg object-cover "
@@ -40,7 +48,11 @@ const Portfolio = () => {
           </a>
         </div>
         <div className="basis-1/3 flex-1 hover:scale-105 shadow-2xl hover-shadow-3xl ease-in-out transition-all duration-300">
-          <a href="" target="_blank" rel="noreferrer">
+          <a
+            href="https://solomon-ameh.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={web3}
               className="rounded-lg object-cover "
@@ -51,7 +63,11 @@ const Portfolio = () => {
           </a>
         </div>
         <div className="basis-1/3 flex-1 hover:scale-105 shadow-2xl hover-shadow-3xl ease-in-out transition-all duration-300">
-          <a href="" target="_blank" rel="noreferrer">
+          <a
+            href="https://react-data-app.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={web4}
               className="rounded-lg object-cover "
@@ -62,7 +78,11 @@ const Portfolio = () => {
           </a>
         </div>
         <div className="basis-1/3 flex-1 hover:scale-105 shadow-2xl hover-shadow-3xl ease-in-out transition-all duration-300">
-          <a href="" target="_blank" rel="noreferrer">
+          <a
+            href="https://mern-ai-project.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={web5}
               className="rounded-lg object-cover "
