@@ -9,10 +9,17 @@ import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+  const toggleDarkMode = () => {
+    setDarkMode((prevDarkMode) => !prevDarkMode);
+  };
   return (
-    <div>
+    <div
+      className={`h-full w-full mx-auto py-2 
+    ${darkMode ? "dark" : ""}`}
+    >
       <main className="bg-white px-10 md:px-20 lg:px-40">
-        <Navbar />
+        <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <Hero />
         <About />
         <Portfolio />
