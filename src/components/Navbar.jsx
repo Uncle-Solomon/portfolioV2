@@ -10,7 +10,7 @@ const Navbar = () => {
     FileSaver.saveAs(fileUrl, fileName);
   };
   return (
-    <nav className="py-10 mb-12 flex justify-between">
+    <nav className="py-10 mb-12 flex justify-between sticky">
       <h1 className="text-2xl">A.S.O</h1>
       <ul className="flex items-center ">
         <li>
