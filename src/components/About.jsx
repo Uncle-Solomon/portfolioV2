@@ -32,8 +32,8 @@ const About = () => {
           regularly document my learning progress on Github.
         </p>
       </div>
-      <div className="lg:flex gap-10">
-        <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 ">
+      <div className="lg:flex gap-10 group">
+        <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 group-hover:blur-sm hover:!blur-none ">
           <img
             src={frontend}
             className="mx-auto hover:scale-110 ease-in-out duration-300"
@@ -65,7 +65,7 @@ const About = () => {
             <SiTailwindcss className="inline-block text-teal-600 items-center ml-1 animate-bounce" />
           </p>
         </div>
-        <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 ">
+        <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 group-hover:blur-sm hover:!blur-none ">
           <img
             src={backend}
             className="mx-auto hover:scale-110 ease-in-out duration-300 "
@@ -99,7 +99,7 @@ const About = () => {
             <SiPostman className="inline-block text-teal-600 items-center ml-1 animate-bounce" />
           </p>
         </div>
-        <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 ">
+        <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 group-hover:blur-sm hover:!blur-none ">
           <img
             src={AI}
             className="mx-auto hover:scale-110 ease-in-out duration-300"
