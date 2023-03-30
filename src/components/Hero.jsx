@@ -52,7 +52,7 @@ const Hero = () => {
           <AiFillInstagram />
         </a>
       </div>
-      <div className="mx-auto mt-10 w-60 h-60 md:w-96 md:h-96">
+      <div className="mx-auto mt-10 w-60 h-60 md:w-96 md:h-96 mb-10">
         <img
           src={second}
           alt="My face"
