@@ -33,7 +33,7 @@ const About = () => {
         </p>
       </div>
       <div className="lg:flex gap-10 group">
-        <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 lg:group-hover:blur-sm lg:hover:!blur-none dark:bg-white">
+        <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 lg:hover:scale-110 ease-in-out transition-all duration-300 dark:bg-white">
           <img
             src={frontend}
             className="mx-auto hover:scale-110 ease-in-out duration-300"
@@ -65,7 +65,7 @@ const About = () => {
             <SiTailwindcss className="inline-block text-teal-600 items-center ml-1 animate-bounce" />
           </p>
         </div>
-        <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 lg:group-hover:blur-sm lg:hover:!blur-none dark:bg-white">
+        <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 lg:hover:scale-110 ease-in-out transition-all duration-300 dark:bg-white">
           <img
             src={backend}
             className="mx-auto hover:scale-110 ease-in-out duration-300 "
@@ -99,7 +99,7 @@ const About = () => {
             <SiPostman className="inline-block text-teal-600 items-center ml-1 animate-bounce" />
           </p>
         </div>
-        <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 lg:group-hover:blur-sm lg:hover:!blur-none dark:bg-white">
+        <div className="text-center shadow-xl hover-shadow-2xl p-10 rounded-2xl my-10 lg:hover:scale-110 ease-in-out transition-all duration-300 dark:bg-white">
           <img
             src={AI}
             className="mx-auto hover:scale-110 ease-in-out duration-300"

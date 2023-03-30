@@ -23,8 +23,9 @@ const Hero = () => {
           Fullstack Web Developer and AI Enthusiast
         </h3>
         <p className="text-md py-5 leading-8 text-gray-70 md:text-lg max-w-lg mx-auto dark:text-gray-200">
-          A tech bro with a wide range of skills and services to offer. You can
-          reach me through any of the provided platforms.
+          A computer engineering graduate with a wide range of skills and
+          services to offer. You can reach me through any of the provided
+          platforms.
         </p>
       </div>
       <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
