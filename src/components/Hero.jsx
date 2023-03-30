@@ -6,14 +6,13 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import second from "../assets/second.jpg";
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
     <div>
       <div className="text-center p-10">
-        <h2 className="text-4xl py-2 text-teal-600 font-medium md:text-5xl">
-          Ameh Solomon Onyeke
-        </h2>
+        <h2 className="text-4xl py-2 text-teal-600 font-medium md:text-5xl"></h2>
         <h3 className="text-2xl py-2 md:text-3xl">
           Fullstack Web Developer and AI Enthusiast
         </h3>

@@ -61,7 +61,7 @@ const About = () => {
             <FaHtml5 className="inline-block text-teal-600 items-center ml-1 animate-bounce" />
           </p>
           <p className="text-gray-700 py-1">
-            TailWind Css{" "}
+            TailWind CSS{" "}
             <SiTailwindcss className="inline-block text-teal-600 items-center ml-1 animate-bounce" />
           </p>
         </div>

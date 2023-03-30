@@ -13,6 +13,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
+    "react-text-aianimation": "^0.4.0",
+    "react-type-animation": "^3.0.1",
     "react-use-downloader": "^1.2.4",
     "tw-elements": "^1.0.0-beta1"
   },

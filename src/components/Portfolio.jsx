@@ -18,49 +18,59 @@ const Portfolio = () => {
       </div>
       <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
         <div className="basis-1/3 flex-1 hover:scale-105 shadow-2xl hover-shadow-3xl ease-in-out transition-all duration-300">
-          <img
-            src={web1}
-            className="rounded-lg object-cover "
-            width={"100%"}
-            height={"100%"}
-            alt=""
-          />
+          <a href="" target="_blank" rel="noreferrer">
+            <img
+              src={web1}
+              className="rounded-lg object-cover "
+              width={"100%"}
+              height={"100%"}
+              alt=""
+            />
+          </a>
         </div>
         <div className="basis-1/3 flex-1 hover:scale-105 shadow-2xl hover-shadow-3xl ease-in-out transition-all duration-300">
-          <img
-            src={web2}
-            className="rounded-lg object-cover "
-            width={"100%"}
-            height={"100%"}
-            alt=""
-          />
+          <a href="" target="_blank" rel="noreferrer">
+            <img
+              src={web2}
+              className="rounded-lg object-cover "
+              width={"100%"}
+              height={"100%"}
+              alt=""
+            />
+          </a>
         </div>
         <div className="basis-1/3 flex-1 hover:scale-105 shadow-2xl hover-shadow-3xl ease-in-out transition-all duration-300">
-          <img
-            src={web3}
-            className="rounded-lg object-cover "
-            width={"100%"}
-            height={"100%"}
-            alt=""
-          />
+          <a href="" target="_blank" rel="noreferrer">
+            <img
+              src={web3}
+              className="rounded-lg object-cover "
+              width={"100%"}
+              height={"100%"}
+              alt=""
+            />
+          </a>
         </div>
         <div className="basis-1/3 flex-1 hover:scale-105 shadow-2xl hover-shadow-3xl ease-in-out transition-all duration-300">
-          <img
-            src={web4}
-            className="rounded-lg object-cover "
-            width={"100%"}
-            height={"100%"}
-            alt=""
-          />
+          <a href="" target="_blank" rel="noreferrer">
+            <img
+              src={web4}
+              className="rounded-lg object-cover "
+              width={"100%"}
+              height={"100%"}
+              alt=""
+            />
+          </a>
         </div>
         <div className="basis-1/3 flex-1 hover:scale-105 shadow-2xl hover-shadow-3xl ease-in-out transition-all duration-300">
-          <img
-            src={web5}
-            className="rounded-lg object-cover "
-            width={"100%"}
-            height={"100%"}
-            alt=""
-          />
+          <a href="" target="_blank" rel="noreferrer">
+            <img
+              src={web5}
+              className="rounded-lg object-cover "
+              width={"100%"}
+              height={"100%"}
+              alt=""
+            />
+          </a>
         </div>
         <div className="basis-1/3 flex-1 hover:scale-105 shadow-2xl hover-shadow-3xl ease-in-out transition-all duration-300"></div>
       </div>
