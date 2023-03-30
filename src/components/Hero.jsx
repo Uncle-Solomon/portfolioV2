@@ -16,7 +16,7 @@ const Hero = () => {
           <TypeAnimation
             sequence={["Ameh Solomon Onyeke", 1000, "", 1000]}
             cursor={true}
-            repeat={10}
+            repeat={Infinity}
           />
         </h2>
         <h3 className="text-2xl py-2 md:text-3xl">
