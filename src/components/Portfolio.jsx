@@ -19,7 +19,7 @@ const Portfolio = () => {
       <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
         <div className="basis-1/3 flex-1 hover:scale-105 shadow-2xl hover-shadow-3xl ease-in-out transition-all duration-300">
           <a
-            href="https://project-wireframe.netlify.app/"
+            href="https://heart-care-app.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >

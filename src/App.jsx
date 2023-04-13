@@ -15,10 +15,10 @@ function App() {
   };
   return (
     <div
-      className={`h-full w-full mx-auto py-2 
+      className={`h-full w-full mx-auto py-2 dark:bg-gray-900 
     ${darkMode ? "dark" : ""}`}
     >
-      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
+      <main className="bg-white px-10 md:px-20 lg:px-40 ">
         <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <Hero />
         <About />
