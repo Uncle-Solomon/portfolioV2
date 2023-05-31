@@ -13,14 +13,22 @@ const Hero = () => {
     <div>
       <div className="text-center p-10">
         <h2 className="text-4xl py-2 text-teal-600 font-medium md:text-5xl">
+          Ameh Solomon Onyeke
+        </h2>
+        <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
           <TypeAnimation
-            sequence={["Ameh Solomon Onyeke", 1000, "", 1000]}
+            sequence={[
+              "Fullstack Web Developer",
+              1000,
+              "Computer Engineering Graduate",
+              1000,
+              "AI Enthusiast",
+              1000,
+            ]}
             cursor={true}
             repeat={Infinity}
           />
-        </h2>
-        <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
-          Fullstack Web Developer and AI Enthusiast
+          and
         </h3>
         <p className="text-md py-5 leading-8 text-gray-70 md:text-lg max-w-lg mx-auto dark:text-gray-200">
           A computer engineering graduate with a wide range of skills and
