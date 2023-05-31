@@ -28,7 +28,6 @@ const Hero = () => {
             cursor={true}
             repeat={Infinity}
           />
-          and
         </h3>
         <p className="text-md py-5 leading-8 text-gray-70 md:text-lg max-w-lg mx-auto dark:text-gray-200">
           A computer engineering graduate with a wide range of skills and
